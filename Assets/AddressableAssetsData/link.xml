@@ -1,0 +1,90 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ARManagerRegisteredEventChannelSO" preserve="all" />
+    <type fullname="ARSpawnManager" preserve="all" />
+    <type fullname="BatchesReadyEventChannelSO" preserve="all" />
+    <type fullname="ContentDatabaseLoader" preserve="all" />
+    <type fullname="DatabaseLoadedEventChannelSO" preserve="all" />
+    <type fullname="DatabaseLoadedOrchestrator" preserve="all" />
+    <type fullname="ExperienceDatabaseSO" preserve="all" />
+    <type fullname="ExperienceSceneManager" preserve="all" />
+    <type fullname="FirstBatchReadyEventChannelSO" preserve="all" />
+    <type fullname="MutableLibraryManager" preserve="all" />
+    <type fullname="SceneLoadedEventChannelSO" preserve="all" />
+    <type fullname="SceneLoader" preserve="all" />
+    <type fullname="ScenePrefabMarker" preserve="all" />
+    <type fullname="SceneSetupSO" preserve="all" />
+    <type fullname="TrackedImageManagerRegistrar" preserve="all" />
+    <type fullname="TrackedImagesListener" preserve="all" />
+    <type fullname="ExperienceData" preserve="nothing" serialized="true" />
+    <type fullname="SceneSetupSO/PrefabSetup" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceTexture2D" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.InputSystem, Version=1.14.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.InputSystem.XR.TrackedPoseDriver" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputActionProperty" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.XR.ARFoundation.ARCameraBackground" preserve="all" />
+    <type fullname="UnityEngine.XR.ARFoundation.ARCameraManager" preserve="all" />
+    <type fullname="UnityEngine.XR.ARFoundation.ARFaceManager" preserve="all" />
+    <type fullname="UnityEngine.XR.ARFoundation.ARInputManager" preserve="all" />
+    <type fullname="UnityEngine.XR.ARFoundation.ARPlaneManager" preserve="all" />
+    <type fullname="UnityEngine.XR.ARFoundation.ARSession" preserve="all" />
+    <type fullname="UnityEngine.XR.ARFoundation.ARTrackedImageManager" preserve="all" />
+    <type fullname="UnityEngine.XR.ARFoundation.ARTrackablesChangedEventArgs`1" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.XR.ARSubsystems, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary" preserve="all" />
+    <type fullname="UnityEngine.XR.ARSubsystems.SerializableDictionary`2" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.XR.ARSubsystems.SerializableGuid" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.XR.ARSubsystems.XRReferenceImage" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.XR.CoreUtils, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.XR.CoreUtils.XROrigin" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager" preserve="all" />
+    <type fullname="UnityEngine.XR.Interaction.Toolkit.XRInteractionManager" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+</linker>

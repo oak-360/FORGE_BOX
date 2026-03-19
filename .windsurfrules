@@ -1,0 +1,31 @@
+-Use Single Responsibility Principle  by ensuring that ScriptableObjects primarily focus on storing data and MonoBehaviours focus on implementing logic. 
+-Each ScriptableObject should have a clear and specific purpose for the data it holds. 
+-MonoBehaviours that reference ScriptableObjects should have a single responsibility related to how they use that data.
+-Use Open-Closed Principle by designing systems where new data or behavior can be added by creating new ScriptableObject assets without requiring modifications to existing code in MonoBehaviours. For example, define abstract base classes for AI behavior in ScriptableObjects, allowing for the creation of various concrete behavior assets (Patrol, Idle, Flee) that MonoBehaviours can utilize without changing their core logic.
+-Use Dependency Inversion Principle by making MonoBehaviours depend on abstractions (ScriptableObjects) rather than concrete implementations (other MonoBehaviours or Singletons). For instance, instead of a Player script directly referencing a specific EnemyManager MonoBehaviour, it could reference a ScriptableObject that acts as an event channel for enemy-related events or a Runtime Set of enemies.
+-Use modularity in system design. Utilize ScriptableObjects to define the data and configuration for systems, allowing prefabs containing the logic (MonoBehaviours) to function independently by referencing these ScriptableObject assets. This reduces hard dependencies between systems and enables easier reassembly of prefabs in different scenes.
+-Prioritize editability for designers. Store game data such within ScriptableObject assets, making them easily accessible and modifiable through the Unity Inspector without requiring code changes. Utilize the `CreateAssetMenu` attribute to facilitate easy creation of these assets. Consider using custom inspectors to enhance the designer experience when working with complex ScriptableObject data.
+-Design for debuggability Separating data into ScriptableObjects can simplify the debugging process by making it clearer where data originates and how logic manipulates it.
+For event systems built with ScriptableObjects, consider implementing debugging tools that allow designers and developers to monitor event broadcasting and reception. 
+-When writeing code Log to console important action excuted in scripts to make it easy for designers to know whats happening with script excution.
+-When building systems, use ScriptableObjects as configuration assets that MonoBehaviours can read from to determine their behavior. This allows for different instances of the same MonoBehaviour to behave differently based on the ScriptableObject they reference.
+- Store static and shared game data in ScriptableObject assets to avoid redundant data storage and improve memory efficiency. Multiple game objects can reference the same ScriptableObject instance.
+- Implement a decoupled event signaling system using ScriptableObjects as "Event Channels". Create ScriptableObject assets that contain Unity Actions or custom event structures. MonoBehaviours can subscribe to these channels to receive events and raise events on them without needing direct references to each other, promoting reusability and reducing coupling.
+- Utilize Runtime Sets based on ScriptableObjects to maintain collections of active game objects or components at runtime without relying on Singletons. This involves a ScriptableObject holding a list of references that game objects can add or remove themselves from, providing a centralized and easily accessible collection for other systems to query.
+- Avoid using ScriptableObjects for storing and modifying volatile, runtime-specific data that should not persist between game sessions or within a single session. ScriptableObjects are best suited for static or shared configuration data.
+- Discourage the use of Singletons for global managers and encourage the use of ScriptableObjects and dependency injection (through the Inspector) as more flexible and testable alternatives. 
+- Emphasize the use of components (MonoBehaviours) that each have a single responsibility and operate based on data provided by ScriptableObjects. 
+- Consider using a consistent naming convention for ScriptableObject scripts (e.g., adding a "SO" suffix) to differentiate them from MonoBehaviours and improve project organization.
+- Do not give me code unless I explicitly ask for it.
+- Guide me in problem-solving instead of providing direct answers.
+- When I ask about programming concepts (e.g., "What is a hook?"), give me a direct and clear explanation.
+- Break problems into smaller, manageable steps and help me think through them.
+- Ask leading questions and provide hints instead of just telling me the answer.
+- Encourage me to debug independently before offering suggestions.
+- Refer me to relevant documentation instead of providing solutions.
+- Encourage modular thinking—breaking problems into reusable components.
+- Remind me to reflect on what I learned after solving an issue.
+- If I explicitly ask for code (e.g., "Give me the code"), then you can provide it.
+- Focused on Andriod Support for now but I will be adding support for IOS later so consider best practices for both.
+- Use Unity CCD for Adressable content delivery.
+- Use firebase for Authentication,Analytics,cloud functions,hosting,realtime database, user generated content cloud storage.

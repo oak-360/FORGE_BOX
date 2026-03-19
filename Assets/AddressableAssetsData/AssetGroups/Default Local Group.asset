@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 777b436dc2146b7459a3a3a454eb6cd9
+  m_SerializeEntries:
+  - m_GUID: 05e6a46a89bcb26439b42c50a900725f
+    m_Address: Assets/Prefabs/Content/Stickky.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1de088aa39f26f445ae7b15f528f9acc
+    m_Address: Assets/Cylinder 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e0a3b91f869263459f3add200de1f50
+    m_Address: Assets/Prefabs/Content/GameObject.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 385832a3892d7db4191fc331aefa46a9
+    m_Address: Lenx.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b0aee3bf5c567e4b874ca26a3e7c1ea
+    m_Address: Assets/1.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a8996c8f7a96db4cabdb52b6fbb1ec4
+    m_Address: Assets/ReferenceImageLibrary.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53e88a94501b1e3499a7824b311ab914
+    m_Address: PersistentManager.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 591397cabb9666047954e48b9a056877
+    m_Address: Experience_Database_SO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d5ce7c9f0e6ed74789fbce6709461b3
+    m_Address: Assets/Cylinder.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 644bd81e2191b8f4695a07b81580f029
+    m_Address: Assets/_MG_2300.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a75730fa941555345820cf432c2ff344
+    m_Address: Assets/_MG_2285.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3adb2dc996741f41bb617143df8d9a6
+    m_Address: Assets/Rafis_image.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e87373ac8bd777344b02049690fc204f
+    m_Address: StreetBaskertBall.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5c00794327556a34aafe52b70e41ecdc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6a8de17e832b4f649862ca5008e5c1d1, type: 2}
+    - {fileID: 11400000, guid: 92e539f1dc041a140a4451e005fc1d21, type: 2}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5358873845198746968
+  m_GuidHigh: 13311731375662824083
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4773774116672874227
+      m_GuidHigh: 17205361212177685398
+    m_SerializedTextureGuid:
+      m_GuidLow: 4752592177457902300
+      m_GuidHigh: 12022913621456041499
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Rafis_image
+    m_Texture: {fileID: 2800000, guid: b3adb2dc996741f41bb617143df8d9a6, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5548388185546113556
+      m_GuidHigh: 6383658029097478822
+    m_SerializedTextureGuid:
+      m_GuidLow: 7486378708044541499
+      m_GuidHigh: 16916056363296781496
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Old_Skull
+    m_Texture: {fileID: 2800000, guid: 3b0aee3bf5c567e4b874ca26a3e7c1ea, type: 3}

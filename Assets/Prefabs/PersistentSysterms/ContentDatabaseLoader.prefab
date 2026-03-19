@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &946299616383774793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5053185692105964960}
+  - component: {fileID: 3521717684772892473}
+  - component: {fileID: 2580783748743119301}
+  - component: {fileID: 2721114002136258703}
+  m_Layer: 0
+  m_Name: ContentDatabaseLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5053185692105964960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946299616383774793}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3521717684772892473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946299616383774793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8453f4db10a9cb0469032e1bb9c3ab9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experienceDatabaseAddress: Experience_Database_SO.asset
+  databaseLoadedEventChannel: {fileID: 11400000, guid: 2ed64516dfa6cca41ab5c118191b6f83, type: 2}
+--- !u!114 &2580783748743119301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946299616383774793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f618156fa509ac4aa56253674d98b13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  databaseLoadedEventChannel: {fileID: 11400000, guid: 2ed64516dfa6cca41ab5c118191b6f83, type: 2}
+  sceneLoader: {fileID: 0}
+--- !u!114 &2721114002136258703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946299616383774793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc6d256684b15b44899fa04963f35f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onARRegistered: {fileID: 11400000, guid: 57f7eefd610efd441b6b08c5e5b6d591, type: 2}
+  onSceneLoaded: {fileID: 11400000, guid: c0162c46c9d644647a76cbbdc90e15a8, type: 2}
+  onBatchesReady: {fileID: 11400000, guid: 6f4b23ef7b763f843a1135b25d249f91, type: 2}
+  onFirstBatchReady: {fileID: 11400000, guid: 5a01f90afe6d7d846b027b0e3945ab56, type: 2}
+  overrideBatchSize: 10
+  widthInMeters: 0.1

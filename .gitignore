@@ -1,0 +1,89 @@
+# Unity build and cache folders
+Library/
+library/
+Temp/
+temp/
+Obj/
+obj/
+Build/
+build/
+Builds/
+builds/
+UserSettings/
+usersettings/
+MemoryCaptures/
+memorycaptures/
+Logs/
+logs/
+
+# Asset Store Tools
+**/Assets/AssetStoreTools
+**/assets/assetstoretools
+
+# Plastic SCM
+/Assets/Plugins/PlasticSCM*
+/assets/plugins/PlasticSCM*
+
+# Private files
+*.private
+*.private.meta
+^*.private.[0-9]+$
+^*.private.[0-9]+.meta$
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+.gradle/
+
+# Build artifacts
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# Debug symbols
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# System files
+sysinfo.txt
+crashlytics-build.properties
+
+# Mobile builds
+*.apk
+*.aab
+*.app
+
+# Unity packages
+*.unitypackage
+
+# Unity sync files
+~UnityDirMonSyncFile~*
+
+# Addressables
+**/Assets/AddressableAssetsData/*/*.bin*
+**/assets/addressableassetsdata/*/*.bin*
+**/Assets/StreamingAssets/aa.meta
+**/assets/streamingassets/*/aa/*
+
+# OS files
+.DS_Store*
+Thumbs.db
+Desktop.ini
+
+# Image files
+*.jpg

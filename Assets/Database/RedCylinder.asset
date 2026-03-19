@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3acb8dcb6d7d0e04b8dbdc65080bdd27, type: 3}
+  m_Name: RedCylinder
+  m_EditorClassIdentifier: 
+  prefabsToSpawn:
+  - prefabReference:
+      m_AssetGUID: 1de088aa39f26f445ae7b15f528f9acc
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    position: {x: -15.1632805, y: 2.0250015, z: 1.9915867}
+    rotation: {x: 0.4330127, y: 0.4330127, z: -0.25, w: 0.75}
+    scale: {x: 1, y: 1, z: 1}
+  - prefabReference:
+      m_AssetGUID: 5d5ce7c9f0e6ed74789fbce6709461b3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    position: {x: -15.1632805, y: 1, z: 3}
+    rotation: {x: 0.4330127, y: 0.4330127, z: -0.25, w: 0.75}
+    scale: {x: 1, y: 1, z: 1}
+  enableImageTracking: 1
+  enablePlaneTracking: 0
+  enableFaceTracking: 0

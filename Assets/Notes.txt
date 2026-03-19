@@ -1,0 +1,8 @@
+decoupling the  the mutable library manager from the experience manager.
+
+Process stops at [MutableLibraryManager] ARTrackedImageManager registered!
+
+But the original MutableLibraryManager.cs works perfect for now.
+
+
+
