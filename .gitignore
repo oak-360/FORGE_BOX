@@ -87,3 +87,25 @@ Desktop.ini
 
 # Image files
 *.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Firebase configuration (for future implementation)
+google-services.json
+GoogleService-Info.plist
+firebase-*.json
+
+# Development notes and personal files
+Notes.txt
+*.md
+*.txt
+
+# IDE and editor specific files
+.vsconfig
+.windsurfrules
+
+# Plastic SCM metadata
+.plastic/
