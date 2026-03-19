@@ -100,7 +100,6 @@ firebase-*.json
 
 # Development notes and personal files
 Notes.txt
-*.md
 *.txt
 
 # IDE and editor specific files
